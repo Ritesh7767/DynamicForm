@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2vh ;
+}
+form{
+    padding: 1vh;
+    width: 30%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input{
+    display: block;
+    width: 75%;
+    height: 4vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+input:focus{
+    border: none;
+    outline: 1px solid teal;
+}
+button{
+    background-color: teal ;
+    color: white;
+    width: 35%;
+    height: 5vh;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 2%;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+button:hover{
+    background-color: #014D6D;
+}
+.submit{
+    background-color: rgb(42, 132, 168);
+    border-radius: 20px;
+    height: 5vh;
+    color: white;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+.submit:hover{
+    background-color: rgb(15, 46, 58);
+    font-size: 16px;
+}
+.submit:active{
+    outline: none;
+    background-color: rgb(50, 99, 118);
+}
+.submit:focus{
+    outline: none;
+}
